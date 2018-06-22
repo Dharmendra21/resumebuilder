@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Resumebuilder</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+  <link href="/assets/jquery-ui.min.css" rel="stylesheet" />
+  <link href="/assets/bootstrap.min.css" rel="stylesheet" />
+  <link href="/assets/font-awesome.min.css" rel="stylesheet" />
+  <link href="/assets/animate.min.css" rel="stylesheet" />
+  <link href="/assets/style.min.css" rel="stylesheet" />
+  <link href="/assets/style-responsive.min.css" rel="stylesheet" />
+  <link href="/assets/default.css" rel="stylesheet" id="theme" />
+  
+  <link href="/assets/jquery-jvectormap-1.2.2.css" rel="stylesheet" />
+  <link href="/assets/datepicker.css" rel="stylesheet" />
+  <link href="/assets/datepicker3.css" rel="stylesheet" />
+  <link href="/assets/jquery.gritter.css" rel="stylesheet" />
+  
+  <script src="/assets/pace.min.js"></script>
+  <script src="/assets/jquery-1.9.1.min.js"></script>
+
+  </head>
+
+  <body>
+    <%= render "layouts/header" %>
+    <%= yield %>
+      <%= render "layouts/footer" %>
+
+  <script src="/assets/jquery-migrate-1.1.0.min.js"></script>
+  <script src="/assets/jquery-ui.min.js"></script>
+  <script src="/assets/bootstrap.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="assets/crossbrowserjs/html5shiv.js"></script>
+    <script src="assets/crossbrowserjs/respond.min.js"></script>
+    <script src="assets/crossbrowserjs/excanvas.min.js"></script>
+  <![endif]-->
+  <script src="/assets/jquery.slimscroll.min.js"></script>
+  <script src="/assets/jquery.cookie.js"></script>
+  
+  <script src="/assets/jquery.gritter.js"></script>
+  <script src="/assets/jquery.flot.min.js"></script>
+  <script src="/assets/jquery.flot.time.min.js"></script>
+  <script src="/assets/jquery.flot.resize.min.js"></script>
+  <script src="/assets/jquery.flot.pie.min.js"></script>
+  <script src="/assets/jquery.sparkline.js"></script>
+  <script src="/assets/jquery-jvectormap-1.2.2.min.js"></script>
+  <script src="/assets/jquery-jvectormap-world-mill-en.js"></script>
+  <script src="/assets/bootstrap-datepicker.js"></script>
+  <script src="/assets/dashboard.min.js"></script>
+  <script src="/assets/js/apps.min.js"></script>
+  </body>
+</html>
